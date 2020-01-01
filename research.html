@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/theme.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/research.css">
+</head>
+<body>
+
+    <section id="bodyCard">
+
+        <section id="topBar">
+            <ul class="topnav">
+                <li class="left"><a id="name" href="index.html">George Giovanis</a></li>
+                <li class="right"><a href="contact.html">Contact</a></li>
+                <li class="right"><a href="resume.html">Resume</a></li>
+                <li class="right"><a href="development.html">Software Development</a></li>
+                <li class="right"><a href="research.html" class="active">Research</a></li>
+                <li class="right"><a href="index.html">Home</a></li>
+            </ul>
+        </section>
+
+        <section class="textContent" id="textContent2">
+            <h1>Research</h1>
+            <p>
+                My research in the MARS lab aims to enhance the efficiency and 
+                ease of use of algorithms that run in exponential time through 
+                the use of novel coding languages.
+                
+                I also work in the area of visual navigation, where 
+                I oversee the execution of neural networks on robotics equipment.
+                A link to my first paper citation can be seen below. For this 
+                paper, I was responsible for writing Section 7: hardware
+                Experiments, as well as Figures 1 and 7.
+
+                <br><br>
+                <a href="https://arxiv.org/abs/1912.10120" class="Link">
+                    Generating Robust Supervision for Learning-Based Visual
+                    Navigation Using Hamilton-Jacobi Reachability
+                </a>
+            </p>
+            <br>
+            <p id="paperAbstract"> <a id="abstractTitle">Abstract:</a> 
+                <br><br>In Bansal et al. (2019), 
+                <img src="pictures/paperFigure.png" id="figImage">
+                a novel visual navigation framework that combines learning-based 
+                and model-based approaches has been proposed. Specifically, a 
+                Convolutional Neural Network (CNN) predicts a waypoint that is 
+                used by the dynamics model for planning and tracking a 
+                trajectory to the waypoint. However, the CNN inevitably makes 
+                prediction errors, ultimately leading to collisions, especially 
+                when the robot is navigating through cluttered and tight spaces. 
+                In this paper, we present a novel Hamilton-Jacobi (HJ) 
+                reachability-based method to generate supervision for the CNN 
+                for waypoint prediction. By modeling the prediction error of 
+                the CNN as disturbances in dynamics, the proposed method 
+                generates waypoints that are robust to these disturbances, and 
+                consequently to the prediction errors. Moreover, using globally 
+                optimal HJ reachability analysis leads to predicting waypoints 
+                that are time-efficient and do not exhibit greedy behavior. 
+                Through simulations and experiments on a hardware testbed, we 
+                demonstrate the advantages of the proposed approach for 
+                navigation tasks where the robot needs to navigate through 
+                cluttered, narrow indoor environments.
+            </p> 
+        </section><br>
+
+        <section id="footer">
+            <ul class="botnav">
+                <li class="right"><a href="https://ca.linkedin.com/in/george-giovanis-523b76182?trk=people-guest_profile-result-card_result-card_full-click">
+                    linkedIn<img src="pictures/LI-In-Bug.png" id="linkedInLogo"></a></li>
+                <li class="right"><a href="https://github.com/GeoGiovani?tab=repositories">
+                GitHub<img src="pictures/GitHub-Mark-64px.png" id="gitLogo"></a></li>
+            </ul>
+        </section>
+</body>
+</html>

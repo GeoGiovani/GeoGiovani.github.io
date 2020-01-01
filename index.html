@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="Stylesheets/theme.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/home.css">
 </head>
 <body>
 
@@ -10,11 +11,12 @@
 
         <section id="topBar">
             <ul class="topnav">
-                <li class="left"><a id="name" href="">George Giovanis</a></li>
-                <li class="right"><a href="#contact">Contact</a></li>
-                <li class="right"><a href="#transcript">Transcript</a></li>
-                <li class="right"><a href="#reume">Resume</a></li>
-                <li class="right"><a href="#home" class="active">Home</a></li>
+                <li class="left"><a id="name" href="index.html">George Giovanis</a></li>
+                <li class="right"><a href="contact.html">Contact</a></li>
+                <li class="right"><a href="resume.html">Resume</a></li>
+                <li class="right"><a href="development.html">Software Development</a></li>
+                <li class="right"><a href="research.html">Research</a></li>
+                <li class="right"><a href="index.html" class="active">Home</a></li>
             </ul>
         </section>
 
@@ -26,7 +28,7 @@
                 degree in Computer Science, with a focus on Artificial 
                 Intelligence. At SFU, I volunteer as an Undergraduate 
                 Researcher in the <a href="https://sfumars.com/people/george-giovanis/"
-                class="Link"> Multi-Agent Robotic Systems laboratory</a> 
+                class="Link"> Multi-Agent Robotic Systems (MARS) laboratory</a> 
                 under professor <a href="https://sfumars.com/mo-chen/" 
                 class="Link">Mo Chen</a>, where I work in the area of automated
                 systems and machine learning.
@@ -39,95 +41,16 @@
                 the App Store and Play Store. Our first project - SwiftCalc is 
                 set to launch in the next few months. 
             </p>
-
-        </section><br>
-
-        <section class="textContent" id="textContent2">
-            <h1>Research</h1>
-            <p>
-                My research aims to enhance the efficiency of algorithms
-                that run in exponential time through the use of new coding
-                languages. I also work in the area of visual navigation, where 
-                I oversee the execution of neural networks on robotics equipment.
-                The abstract from my first paper citation can be seen below: 
-
-                <br><br>
-                <a href="https://arxiv.org/abs/1912.10120" class="Link">
-                    Generating Robust Supervision for Learning-Based Visual
-                    Navigation Using Hamilton-Jacobi Reachability
-                </a>
-            </p>
-            <br>
-            <p id="paperAbstract"> <a id="abstractTitle">Abstract:</a> 
-                <br><br>< In Bansal et al. (2019), 
-                <img src="pictures/paperFigure.png" id="figImage">
-                a novel visual navigation framework that combines learning-based 
-                and model-based approaches has been proposed. Specifically, a 
-                Convolutional Neural Network (CNN) predicts a waypoint that is 
-                used by the dynamics model for planning and tracking a 
-                trajectory to the waypoint. However, the CNN inevitably makes 
-                prediction errors, ultimately leading to collisions, especially 
-                when the robot is navigating through cluttered and tight spaces. 
-                In this paper, we present a novel Hamilton-Jacobi (HJ) 
-                reachability-based method to generate supervision for the CNN 
-                for waypoint prediction. By modeling the prediction error of 
-                the CNN as disturbances in dynamics, the proposed method 
-                generates waypoints that are robust to these disturbances, and 
-                consequently to the prediction errors. Moreover, using globally 
-                optimal HJ reachability analysis leads to predicting waypoints 
-                that are time-efficient and do not exhibit greedy behavior. 
-                Through simulations and experiments on a hardware testbed, we 
-                demonstrate the advantages of the proposed approach for 
-                navigation tasks where the robot needs to navigate through 
-                cluttered, narrow indoor environments.
-            </p> 
-        </section><br>
-
-        <section class="textContent" id="textContent3">
-            <h1>Software Development</h1>
-
-            <p>
-                Since beginning my second degree in Computer Science, I have
-                undergone a thorough introduction into software development. So
-                far, I have completed one major project at SFU - a web-based
-                multiplayer game built off of the NodeJS framework. Currently,
-                I am co-developing my first iPhone and Android application - SwiftCalc,
-                which is an efficient, minimalistic calculator that aims to
-                provide the utility of a scientific/graphing calculator with 
-                a profile no larger than that of the native calculator that 
-                comes installed on a new phone.
-
-                <h2>Current Work: SwiftCalc</h2>
-
-                <p id="calculatorText">
-                    <img src="pictures/swiftCalc.png" id="calc">
-                    SwiftCalc is a calculator app that will offer the functionality
-                    of a more powerful calculator with a minimalistic interface.
-                    The app is built using Google's Flutter platform, which allows
-                    for cross-platform development. 
-                     
-                    The calculator utilizes swipe gestures to allow users to access
-                    multuple functions from a single button.
-                </p>
-            </p>
-            <h2 id="pastWork">Past Work: S.F.U. Secial Fortification Unit</h2>
-            <br><br>
-            <p>
-                <img src="pictures/SFUnit.png" id="SFUnit">
-                S.F.U. is a web-based game built off of the NodeJS framework that
-                is currently running on Heroku's web hosting platform. The game
-                uses Socket.IO to enable multiple users to play in game lobbies.
-                The goal of the game is to navigate through the halls of Simon
-                Fraser University whilst destroying enemies (in the form of 
-                bad grades). S.F.U. offers a unique and interactive gaming.
-                <br><br>
-                I co-developed S.F.U. and played a large role in the development
-                of the game engine and web interface. I was also responsible for
-                writing tests for the game using Mocha and Chai.
-            </p>
         </section>
-    </section>
 
-</body>
+        <section id="footer">
+            <ul class="botnav">
+                <li class="right"><a href="https://ca.linkedin.com/in/george-giovanis-523b76182?trk=people-guest_profile-result-card_result-card_full-click">
+                linkedIn<img src="pictures/LI-In-Bug.png" id="linkedInLogo"></a></li>
+                <li class="right"><a href="https://github.com/GeoGiovani?tab=repositories">
+                GitHub<img src="pictures/GitHub-Mark-64px.png" id="gitLogo"></a></li>
+            </ul>
+        </section>
+    </body>    
 </html>
 
