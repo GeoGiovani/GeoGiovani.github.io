@@ -1,0 +1,161 @@
+body {
+  background-color: rgb(216, 216, 216);
+  margin: 0;
+  font-family: Arial;
+}
+
+html,body {height: 183%;}
+
+#bodyCard {
+  height: 100%;
+  width: 85%;
+  margin: auto;
+  background-color: white;
+}
+
+#topBar {
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 0.5%;
+  width: 85%;
+  border-top: 0.5px solid rgb(255, 255, 255);
+  border-bottom: 0.5px solid rgb(0, 0, 0);
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  /* display: block; */
+  color: black;
+  text-align: center;
+  padding: 0px 10px 0px 5px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  color: rgb(195, 0, 0);
+}
+
+ul.topnav li a.active {
+  /* color: rgb(0, 0, 0); */
+  color: rgb(195, 0, 0);
+  text-decoration: underline;
+}
+
+ul.topnav li.right {
+  float: right;
+  font-size: 16pt;
+  padding-top: 4px;
+  padding-bottom: -4px;
+}
+
+ul.topnav li.left  {
+  color: rgb(195, 0, 0);
+}
+
+ul.topnav li #name  {
+  color: rgb(195, 0, 0);
+  margin-left: 5px;
+  font-size: 32px;
+}
+
+#introduction {
+  margin-top: 7%;
+}
+
+#me {
+  width: 30%;
+  margin-left: 3%;
+  margin-top: -2%;
+  border-radius: 5px;
+  float: right;
+}
+
+.textContent {
+  width: 80%;
+  margin: auto;
+}
+
+#textContent2 {
+  margin-top: 0%;
+}
+
+h1 {
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: -1%;
+}
+
+#textContent2 p {
+  margin-top: -1%;
+  margin-bottom: 2%;
+}
+
+#paperAbstract {
+  font-size: 14px;
+}
+
+#abstractTitle {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+#figImage {
+  margin-top: -3%;
+  margin-left: 2%;
+  float: right;
+  width: 45%;
+}
+
+#calc {
+  position: relative;
+  width: 20%;
+  margin-top: -13%;
+  margin-right: 2%;
+  float: left;
+}
+
+#calculatorText {
+  margin-top: 16%;
+}
+
+#pastWork {
+  margin-top: 18%;
+}
+
+#SFUnit {
+  margin-left: 2%;
+  margin-top: -2%;
+  float: right;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {
+    float: none;
+    margin: auto;
+  }
+  #bodyCard {width: 100%;}
+}
+
+.Link {
+  color: rgb(31, 31, 187);
+  text-decoration: none;
+}
