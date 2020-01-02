@@ -4,8 +4,6 @@ body {
   font-family: Arial;
 }
 
-/* html,body {height: 100%;} */
-
 #bodyCard {
   height: 100%;
   width: 85%;
@@ -162,24 +160,38 @@ h2 {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   ul.topnav li.right, 
   ul.topnav li {
+    margin-bottom: 2%;
+    display: block;
+    text-align: center;
     float: none;
-    margin: auto;
   }
-  #bodyCard {width: 100%;}
+  #bodyCard {
+    width: 100%;
+    height: 180%;
+  }
 
-  ul.botnav li.right,
+  li.left {
+    margin-bottom: 3%;
+    display: block;
+    text-align: center;
+  }
+
+  ul.botnav li.right li.left,
   ul.botnav li {
+    margin-bottom: 2%;
+    display: block;
+    text-align: center;
     float: none;
-    margin: auto;
+    margin-right: 6.5%;
   }
 
 }
 
 
-html,body {height: 113%;}
+html,body {height: 115%;}
 
 #textContent2 {
     margin-top: 6%;
@@ -191,6 +203,7 @@ html,body {height: 113%;}
 }
   
 #paperAbstract {
+  min-width: 400px;
     width: 60%;
     font-size: 18px;
     line-height: 1.5;
@@ -202,8 +215,10 @@ html,body {height: 113%;}
 }
 
 #figImage {
+    min-width: 400px;
     margin-top: 1%;
-    margin-left: 2%;
+    margin-left: 3%;
+    margin-bottom: 3%;
     float: right;
     width: 40%;
     vertical-align: top;
