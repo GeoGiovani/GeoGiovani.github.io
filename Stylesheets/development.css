@@ -1,1 +1,25 @@
 html,body {height: 135%;}
+
+#calc {
+    position: relative;
+    width: 20%;
+    margin-top: -13%;
+    margin-right: 2%;
+    float: left;
+  }
+  
+  #calculatorText {
+    margin-top: 16%;
+  }
+  
+  #pastWork {
+    margin-top: 18%;
+  }
+  
+  #SFUnit {
+    margin-left: 2%;
+    margin-top: -2%;
+    float: right;
+    width: 50%;
+  }
+  

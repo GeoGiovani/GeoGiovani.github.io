@@ -124,26 +124,14 @@ ul.botnav li a:hover:not(.active) {
   margin-right: 20px;
 }
 
-
-#introduction {
-  margin-top: 7%;
-}
-
-#me {
-  width: 32%;
-  margin-left: 3%;
-  margin-top: -3%;
-  border-radius: 5px;
-  float: right;
+p {
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .textContent {
   width: 80%;
   margin: auto;
-}
-
-#textContent2 {
-  margin-top: 0%;
 }
 
 h1 {
@@ -154,54 +142,7 @@ h1 {
 h2 {
   font-size: 20px;
   margin-bottom: -1%;
-}
-
-#textContent2 p {
-  margin-top: -1%;
-  margin-bottom: 2%;
-}
-
-#paperAbstract {
-  font-size: 14px;
-}
-
-#abstractTitle {
   text-decoration: underline;
-}
-
-p {
-  line-height: 1.5;
-  font-size: 18px;
-}
-
-#figImage {
-  margin-top: -3%;
-  margin-left: 2%;
-  float: right;
-  width: 45%;
-}
-
-#calc {
-  position: relative;
-  width: 20%;
-  margin-top: -13%;
-  margin-right: 2%;
-  float: left;
-}
-
-#calculatorText {
-  margin-top: 16%;
-}
-
-#pastWork {
-  margin-top: 18%;
-}
-
-#SFUnit {
-  margin-left: 2%;
-  margin-top: -2%;
-  float: right;
-  width: 50%;
 }
 
 .Link {

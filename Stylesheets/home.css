@@ -1,1 +1,14 @@
 html,body {height: 100%;}
+
+#introduction {
+    width: 65%;
+    margin-top: 7%;
+  }
+  
+  #me {
+    width: 32%;
+    margin-left: 3%;
+    margin-top: -3%;
+    border-radius: 5px;
+    float: right;
+  }
