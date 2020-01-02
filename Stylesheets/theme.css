@@ -177,3 +177,39 @@ h2 {
   }
 
 }
+
+
+html,body {height: 113%;}
+
+#textContent2 {
+    margin-top: 6%;
+}
+
+#textContent2 p {
+    margin-top: -1%;
+    margin-bottom: 2%;
+}
+  
+#paperAbstract {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+#abstractTitle {
+    text-decoration: underline;
+}
+
+#figImage {
+    margin-top: 1%;
+    margin-left: 2%;
+    float: right;
+    width: 40%;
+    vertical-align: top;
+}
+
+#caption {
+    vertical-align: bottom;
+    text-align: right;
+}
