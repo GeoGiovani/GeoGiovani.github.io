@@ -170,7 +170,7 @@ h2 {
   }
   #bodyCard {
     width: 100%;
-    height: 180%;
+    height: 185%;
   }
 
   li.left {
@@ -186,6 +186,45 @@ h2 {
     text-align: center;
     float: none;
     margin-right: 6.5%;
+  }
+
+  #textContent2 #figImage {
+    float: none;
+    margin-left: -12.5%;
+    margin-bottom: 0%;
+  }
+
+  #textContent3 {
+    margin-left: 10%;
+    margin-bottom: 0%;
+  }
+
+  #textContent3 #calculatorText {
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 0%;
+  }
+
+  #textContent3 #calc {
+    width: 100%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    margin-left: 0%;
+  } 
+  
+  #textContent4 {
+    margin-top: 3%;
+    width: 80%; 
+  }
+
+  #textContent4 #SFUnit {
+    margin-bottom: 5%;
+  }
+
+  #textContent4 #pastWork {
+    margin-top: 3%;
+    width: 100%;
   }
 
 }
@@ -227,4 +266,40 @@ html,body {height: 115%;}
 #caption {
     vertical-align: bottom;
     text-align: right;
+}
+
+/* Development */
+
+#calc {
+  min-width: 200px;
+  position: relative;
+  width: 20%;
+  margin-top: 3%;
+  margin-right: 2%;
+  float: left;
+}
+
+#calculatorText {
+  margin-top: 16%;
+}
+
+#SFUnit {
+  min-width: 400px;
+  margin-left: 4%;
+  margin-top: 5%;
+  float: right;
+  width: 50%;
+}
+
+#textContent3 {
+  margin-top: 6%;
+}
+
+#textContent4 {
+  margin-top: 20%;
+}
+
+#textContent4 p {
+  width: 50%;
+  margin-top: 7.5%;
 }
