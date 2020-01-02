@@ -185,11 +185,17 @@ h2 {
     display: block;
     text-align: center;
     float: none;
-    margin-right: 6.5%;
+    margin-right: 6%;
+    margin-left: 3%;
+  }
+
+  #textContent1 #me {
+    width:100%;
   }
 
   #textContent2 #figImage {
     float: none;
+    width: 100%;
     margin-left: -12.5%;
     margin-bottom: 0%;
   }
@@ -219,6 +225,7 @@ h2 {
   }
 
   #textContent4 #SFUnit {
+    width: 100%;
     margin-bottom: 5%;
   }
 

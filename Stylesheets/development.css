@@ -1,1 +1,8 @@
 html,body {height: 140%;}
+
+@media screen and (max-width: 800px) {
+    #bodyCard {
+        width: 100%;
+        height: 165%;
+      }
+}
