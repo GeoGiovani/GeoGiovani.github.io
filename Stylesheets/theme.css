@@ -324,3 +324,9 @@ html,body {height: 115%;}
   /* max-width: 50%; */
   margin-top: 7.5%;
 }
+
+@media screen and (max-height: 500px) {
+  body {
+    background-color: white;
+  }
+}
