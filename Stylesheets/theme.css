@@ -186,7 +186,7 @@ h2 {
     text-align: center;
     float: none;
     margin-right: -1%;
-    margin-left: -3%;
+    margin-left: -5%;
   }
 
   #textContent1 p {
@@ -232,7 +232,7 @@ h2 {
     min-width: 300px;
   } */
 
-  #textContent4 #SFUnit {
+  /* #textContent4 #SFUnit {
     width: 100%;
     margin-bottom: 5%;
   }
@@ -242,7 +242,7 @@ h2 {
     width: 100%;
     min-width: 300px;
     max-width: 300px;
-  }
+  } */
 
 }
 
