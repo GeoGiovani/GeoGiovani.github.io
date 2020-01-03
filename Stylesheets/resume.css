@@ -1,0 +1,7 @@
+html,body {height: 135%;}
+
+#resumeSection iframe {
+    margin-top: 3%;
+    margin-left: 10%;
+    border: solid black 1px;
+}

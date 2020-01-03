@@ -28,10 +28,11 @@ ul.topnav {
   overflow: hidden;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+}
 
 ul.topnav li a {
-  /* display: block; */
   color: black;
   text-align: center;
   padding: 0px 10px 0px 5px;
@@ -43,7 +44,6 @@ ul.topnav li a:hover:not(.active) {
 }
 
 ul.topnav li a.active {
-  /* color: rgb(0, 0, 0); */
   color: rgb(195, 0, 0);
   text-decoration: underline;
 }
@@ -112,7 +112,6 @@ ul.botnav li.left a:hover:not(.active) {
 }
 
 ul.botnav li a {
-  /* display: block; */
   color: black;
   text-align: center;
   padding: 0px 5px 0px 30px;
@@ -189,13 +188,11 @@ h2 {
     text-align: center;
     float: none;
   }
-
   li.left {
     margin-bottom: 3%;
     display: block;
     text-align: center;
   }
-
   ul.botnav li.right li.left,
   ul.botnav li {
     margin-bottom: 2%;
@@ -205,120 +202,9 @@ h2 {
     margin-right: -2%;
     margin-left: -2%;
   }
-
   body {
     background-color: rgb(255, 255, 255);
   }
-
-  #textContent1 p {
-    /* width:100%; */
-    min-width: 105%;
-    margin-left: -2.5%;
-  }
-
-  #textContent1 #me {
-    width:100%;
-    min-width: 200px;
-  }
-  
-  #textContent2 #paperAbstract {
-    min-width: 300px;
-    width: 100%;
-  }
-
-  #textContent3 {
-    margin-left: 10%;
-    margin-bottom: 0%;
-  }
-
-  #textContent3 #calculatorText {
-    margin-top: 5%;
-    width: 90%;
-    margin-left: 4%;
-    margin-right: 0%;
-  }
-
-  #textContent3 #calc {
-    width: 100%;
-    margin-bottom: 3%;
-    margin-top: 5%;
-    margin-left: 0%;
-  } 
-}
-
-
-html,body {height: 115%;}
-
-#textContent2 {
-    margin-top: 6%;
-}
-
-#textContent2 p {
-    margin-top: -1%;
-    margin-bottom: 2%;
-}
-  
-#paperAbstract {
-  /* min-width: 200px; */
-    width: 85%;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-
-#abstractTitle {
-    text-decoration: underline;
-}
-
-#figImage {
-    min-width: 400px;
-    margin-top: 1%;
-    margin-left: 3%;
-    margin-bottom: 3%;
-    float: right;
-    width: 40%;
-    vertical-align: top;
-}
-
-#caption {
-    vertical-align: bottom;
-    text-align: right;
-}
-
-/* Development */
-
-#calc {
-  min-width: 200px;
-  position: relative;
-  width: 20%;
-  margin-top: 3%;
-  margin-right: 2%;
-  float: left;
-}
-
-#calculatorText {
-  margin-top: 16%;
-}
-
-#SFUnit {
-  min-width: 500px;
-  margin-left: 3%;
-  margin-top: 0%;
-  float: right;
-  width: 45%;
-}
-
-#textContent3 {
-  margin-top: 6%;
-}
-
-#textContent4 {
-  margin-top: 17%;
-}
-
-#textContent4 #pastWork {
-  /* max-width: 50%; */
-  margin-top: 1.5%;
 }
 
 @media screen and (max-height: 500px) {
