@@ -189,6 +189,10 @@ h2 {
     margin-left: -5%;
   }
 
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+
   #textContent1 p {
     /* width:100%; */
     min-width: 105%;
