@@ -87,6 +87,6 @@ html,body {height: 115%;}
 @media screen and (max-height: 500px) {
     #bodyCard {
       width: 100%;
-      height: 250%;
+      height: 270%;
     }
   }
