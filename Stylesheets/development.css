@@ -3,7 +3,7 @@ html,body {height: 140%;}
 @media screen and (max-width: 800px) {
   #bodyCard {
     width: 100%;
-    height: 195%;
+    height: 155%;
   }
 
   #SFUnit {
@@ -23,7 +23,7 @@ html,body {height: 140%;}
 @media screen and (max-width: 600px) {
   #bodyCard {
       width: 100%;
-      height: 185%;
+      height: 190%;
     }
 
   #SFUnit {
@@ -32,6 +32,10 @@ html,body {height: 140%;}
     min-width: 300px;
     margin-bottom: 5%;
     margin-left: 3%;
+  }
+
+  #textContent4 {
+    margin-bottom: 10%;
   }
 
   #pastWork {

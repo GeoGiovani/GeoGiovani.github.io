@@ -55,14 +55,14 @@ html,body {height: 115%;}
 
     #bodyCard {
         width: 100%;
-        height: 180%;
+        height: 235%;
       }
 
     #textContent2 #figImage {
         max-width: 500px;
         min-width: 350px;
         float:none;
-        margin-left: -10%;
+        margin-left: -20%;
         margin-bottom: 0%;
     }
 }
@@ -72,7 +72,7 @@ html,body {height: 115%;}
 
     #bodyCard {
         width: 100%;
-        height: 220%;
+        height: 235%;
       }
 
       #textContent2 #figImage {
